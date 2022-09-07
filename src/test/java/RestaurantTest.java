@@ -99,16 +99,16 @@ class RestaurantTest {
 
 
 
+    //TDD new featureTest
+    @Test
+    public void checking_total_of_all_the_cart_items() {
+        List<String> order = Arrays.asList("Sweet corn soup", "Vegetable lasagne");
+        int totalValue = restaurant.orderTotal(order);
+        assertEquals(388, totalValue);
 
-//    @Test
-//    public void checking_total_of_all_the_cart_items() {
-//        List<String> order = Arrays.asList("Sweet corn soup", "Vegetable lasagne");
-//        int totalValue = restaurant.orderTotal(order);
-//        assertEquals(388, totalValue);
-//
-//
-//
-//    }
+
+
+    }
 
 
 }
