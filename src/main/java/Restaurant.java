@@ -80,15 +80,15 @@ public class Restaurant {
     }
 
 
-//    public int orderTotal(List<String> order) {
-//        int total = 0;
-//        for(String str : order) {
-//            total += findItemByName(str).getPrice();
-//
-//        }
-//        return total;
-//
-//    }
+    public int orderTotal(List<String> order) {
+        int total = 0;
+        for(String str : order) {
+            total += findItemByName(str).getPrice();
+
+        }
+        return total;
+
+    }
 
 
 }
